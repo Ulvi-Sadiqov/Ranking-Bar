@@ -1,0 +1,440 @@
+body {
+  margin: 0;
+  background-color: #b0fafa;
+}
+
+body .numbers ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .numbers ul li {
+  list-style-type: none;
+  padding: 0px 80px;
+}
+
+body .numbers ul li p {
+  color: #777777;
+}
+
+body aside {
+  float: left;
+}
+
+body aside ul {
+  padding: 0;
+  margin-left: 20px;
+}
+
+body aside ul li {
+  list-style-type: none;
+  padding: 30px 0px;
+}
+
+body aside ul li img {
+  width: 50px;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .pkxd_bar {
+  -webkit-animation-name: pkxd;
+          animation-name: pkxd;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  margin-top: 46px;
+  margin-left: 20px;
+  width: 900px;
+  height: 50px;
+  background-color: blue;
+  content: "pkxd";
+}
+
+@-webkit-keyframes pkxd {
+  20% {
+    width: 170px;
+    height: 50px;
+    background-color: blue;
+  }
+  30% {
+    width: 340px;
+    height: 50px;
+    background-color: blue;
+  }
+  50% {
+    width: 540px;
+    height: 50px;
+    background-color: blue;
+  }
+  60% {
+    width: 260px;
+    height: 50px;
+    background-color: blue;
+  }
+  70% {
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+  }
+  80% {
+    width: 460px;
+    height: 50px;
+    background-color: blue;
+  }
+  90% {
+    width: 900px;
+    height: 50px;
+    background-color: blue;
+  }
+  100% {
+    width: 900px;
+    height: 50px;
+    background-color: blue;
+  }
+}
+
+@keyframes pkxd {
+  20% {
+    width: 170px;
+    height: 50px;
+    background-color: blue;
+  }
+  30% {
+    width: 340px;
+    height: 50px;
+    background-color: blue;
+  }
+  50% {
+    width: 540px;
+    height: 50px;
+    background-color: blue;
+  }
+  60% {
+    width: 260px;
+    height: 50px;
+    background-color: blue;
+  }
+  70% {
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+  }
+  80% {
+    width: 460px;
+    height: 50px;
+    background-color: blue;
+  }
+  90% {
+    width: 900px;
+    height: 50px;
+    background-color: blue;
+  }
+  100% {
+    width: 900px;
+    height: 50px;
+    background-color: blue;
+  }
+}
+
+body main .brawl_bar {
+  -webkit-animation-name: brawl;
+          animation-name: brawl;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  margin-top: 65px;
+  margin-left: 20px;
+  width: 500px;
+  height: 50px;
+  background-color: yellow;
+  content: "pkxd";
+}
+
+@-webkit-keyframes brawl {
+  20% {
+    width: 450px;
+    height: 50px;
+    background-color: yellow;
+  }
+  30% {
+    width: 140px;
+    height: 50px;
+    background-color: yellow;
+  }
+  50% {
+    width: 540px;
+    height: 50px;
+    background-color: yellow;
+  }
+  60% {
+    width: 420px;
+    height: 50px;
+    background-color: yellow;
+  }
+  70% {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+  }
+  80% {
+    width: 460px;
+    height: 50px;
+    background-color: yellow;
+  }
+  90% {
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+  }
+  100% {
+    width: 500px;
+    height: 50px;
+    background-color: yellow;
+  }
+}
+
+@keyframes brawl {
+  20% {
+    width: 450px;
+    height: 50px;
+    background-color: yellow;
+  }
+  30% {
+    width: 140px;
+    height: 50px;
+    background-color: yellow;
+  }
+  50% {
+    width: 540px;
+    height: 50px;
+    background-color: yellow;
+  }
+  60% {
+    width: 420px;
+    height: 50px;
+    background-color: yellow;
+  }
+  70% {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+  }
+  80% {
+    width: 460px;
+    height: 50px;
+    background-color: yellow;
+  }
+  90% {
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+  }
+  100% {
+    width: 500px;
+    height: 50px;
+    background-color: yellow;
+  }
+}
+
+body main .pubg_bar {
+  -webkit-animation-name: pubg;
+          animation-name: pubg;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 800px;
+  height: 50px;
+  background-color: green;
+  content: "pkxd";
+}
+
+@-webkit-keyframes pubg {
+  20% {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+  }
+  30% {
+    width: 240px;
+    height: 50px;
+    background-color: green;
+  }
+  50% {
+    width: 180px;
+    height: 50px;
+    background-color: green;
+  }
+  60% {
+    width: 640px;
+    height: 50px;
+    background-color: green;
+  }
+  70% {
+    width: 130px;
+    height: 50px;
+    background-color: green;
+  }
+  80% {
+    width: 320px;
+    height: 50px;
+    background-color: green;
+  }
+  90% {
+    width: 380px;
+    height: 50px;
+    background-color: green;
+  }
+  100% {
+    width: 800px;
+    height: 50px;
+    background-color: green;
+  }
+}
+
+@keyframes pubg {
+  20% {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+  }
+  30% {
+    width: 240px;
+    height: 50px;
+    background-color: green;
+  }
+  50% {
+    width: 180px;
+    height: 50px;
+    background-color: green;
+  }
+  60% {
+    width: 640px;
+    height: 50px;
+    background-color: green;
+  }
+  70% {
+    width: 130px;
+    height: 50px;
+    background-color: green;
+  }
+  80% {
+    width: 320px;
+    height: 50px;
+    background-color: green;
+  }
+  90% {
+    width: 380px;
+    height: 50px;
+    background-color: green;
+  }
+  100% {
+    width: 800px;
+    height: 50px;
+    background-color: green;
+  }
+}
+
+body main .hay_bar {
+  -webkit-animation-name: hay;
+          animation-name: hay;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  margin-top: 65px;
+  margin-left: 20px;
+  width: 450px;
+  height: 50px;
+  background-color: red;
+  content: "pkxd";
+}
+
+@-webkit-keyframes hay {
+  20% {
+    width: 860px;
+    height: 50px;
+    background-color: red;
+  }
+  30% {
+    width: 440px;
+    height: 50px;
+    background-color: red;
+  }
+  50% {
+    width: 780px;
+    height: 50px;
+    background-color: red;
+  }
+  60% {
+    width: 300px;
+    height: 50px;
+    background-color: red;
+  }
+  70% {
+    width: 420px;
+    height: 50px;
+    background-color: red;
+  }
+  80% {
+    width: 550px;
+    height: 50px;
+    background-color: red;
+  }
+  90% {
+    width: 180px;
+    height: 50px;
+    background-color: red;
+  }
+  100% {
+    width: 450px;
+    height: 50px;
+    background-color: red;
+  }
+}
+
+@keyframes hay {
+  20% {
+    width: 860px;
+    height: 50px;
+    background-color: red;
+  }
+  30% {
+    width: 440px;
+    height: 50px;
+    background-color: red;
+  }
+  50% {
+    width: 780px;
+    height: 50px;
+    background-color: red;
+  }
+  60% {
+    width: 300px;
+    height: 50px;
+    background-color: red;
+  }
+  70% {
+    width: 420px;
+    height: 50px;
+    background-color: red;
+  }
+  80% {
+    width: 550px;
+    height: 50px;
+    background-color: red;
+  }
+  90% {
+    width: 180px;
+    height: 50px;
+    background-color: red;
+  }
+  100% {
+    width: 450px;
+    height: 50px;
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */
